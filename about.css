@@ -1,0 +1,76 @@
+/* Navigation */
+#about {
+    color: #D9E1E2;
+    text-decoration: underline;
+}
+/* ------OVERALL PROFILE------ */
+
+.backsection {
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 100px;
+    overflow: hidden;
+
+    border: 1px clear; 
+}
+
+/* GIF */
+#gif {
+    margin: 50px auto;
+    margin-right: 40px;
+    margin-left: 40px;
+
+}
+
+/* Profile Image */
+
+#profile {
+    float: left;
+    margin-right: 40px;
+
+}
+
+/* Background */
+.background {
+    float: left;
+    height: 1000px;
+    width: 500px;
+    margin-left: 40px;
+}
+
+#backtitle {
+    padding-top: 45px;
+    padding-bottom: 40px;
+}
+
+.backbody {
+    padding-top: 30px;
+}
+
+#focus {
+    font-weight: 500;
+}
+
+/* Lets Connect */
+
+.connect {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.hline { 
+    clear: both;
+    height:2px;
+    background: #D0D3D4;
+    margin: 0px auto;
+    margin-bottom: 20px;
+
+}
+
+.social {
+    display: inline-block;s
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-bottom: 60px;
+}

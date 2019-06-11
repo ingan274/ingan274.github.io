@@ -1,0 +1,88 @@
+/* Navigation */
+#contact {
+    color: #D9E1E2;
+    text-decoration: underline;
+}
+
+/* Header */
+.symbol {
+    color: #D9E1E2;
+    font-weight: 700;
+}
+
+.headtitle {
+    font-size: 45pt;
+}
+
+/* FORM */
+
+.contact-form {
+    margin-top: 50px;
+    margin: 100px auto;
+    width: 85%;
+
+}
+
+.form {
+    display: block;
+    width: 800px;
+    height: 50px;
+    margin: 10px auto;
+    margin-bottom: 16px;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    
+    border-bottom: 1px, #505759;
+
+
+    font-family: 'Montserrat', sans-serif;
+    color: #505759;
+    font-size: 15pt;
+    font-weight: 300;
+
+}
+
+#submit {
+    color: #D9E1E2;
+    border-color: transparent;
+    font-size: 20pt;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    background-color: #5CA3B3;
+    text-align: center;
+}
+
+#submit:hover{
+    background-color: #003E51;
+    color: #D9E1E2;
+
+}
+
+/* Lets Connect */
+
+.connect {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.hline { 
+    clear: both;
+    height:2px;
+    background: #D0D3D4;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.social {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-bottom: 60px;
+}
+
+

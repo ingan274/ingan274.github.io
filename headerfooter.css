@@ -1,0 +1,218 @@
+/* RESET */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  /* ------OVERALL STYLING FONTS------ */
+
+  /* H1 */
+  #aboutheadtitle {
+    font-family: 'Titillium Web', sans-serif;
+    color: #003E51;
+    font-size: 55pt;
+    text-transform: uppercase;
+}
+
+.headtitle {
+    font-family: 'Titillium Web', sans-serif;
+    color: #003E51;
+    font-size: 55pt;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+    color: #3F4444;
+    font-size: 55pt;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+ /* H2 */
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #505759;
+    font-size: 40pt;
+    text-transform: uppercase;
+}
+
+/* H3 */
+.headbody {
+    font-family: 'Montserrat', sans-serif;
+    color: #D9E1E2;
+    font-size: 18pt;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #505759;
+    font-size: 20pt;
+    font-weight: 500;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footbody {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 12pt;
+    font-weight: 300;
+}
+
+/* Body */
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #505759;
+    font-size: 15pt;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+li {
+    font-family: 'Montserrat', sans-serif;
+    color: #505759;
+    font-size: 12pt;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+li:before {
+   content: "-   ";
+   text-indent: -5px;
+}
+
+
+  /* -------Header Box-------- */
+.aboutheader {
+    width: 100%;
+    height: 80%;
+    padding: 52px;
+    background-color: #5CA3B3;
+    
+}
+
+.header {
+    width: 100%;
+    height: 40%;
+    padding: 52px;
+    background-color: #5CA3B3;
+    
+}
+
+/* Nav All Content */
+
+.navcontainer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+/* Menu content */
+.nav {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 10pt;
+    font-weight: 600;
+  
+}
+
+/* Logo */
+#logo {
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+/* Nav Words: about, work, contact */
+.rownav {
+    clear: both;
+    float: right;
+    margin-top: 30px;
+}
+
+.menu {
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.menu:hover{
+    color: #003E51;
+}
+
+/* Content Title */
+#aboutheadtitle {
+    clear: both;
+    margin-left: 160px;
+    margin-right: 160px;
+    padding-top: 100px;
+
+}
+
+.headtitle {
+    clear: both;
+    margin-left: 160px;
+    margin-right: 160px;
+    padding-top: 100px;
+
+}
+
+/* Content Body */
+.headbody {
+    clear: both;
+    margin-left: 160px;
+    margin-right: 160px;
+    padding-top: 30px;
+}
+
+
+ /* -------Footer Box-------- */
+ .footer {
+    clear: both;
+    width: 100%;
+    padding: 10px;
+    background-color: #D9E1E2;
+}
+
+.footbody {
+    text-align: right;
+    padding-right: 50px;
+   
+}

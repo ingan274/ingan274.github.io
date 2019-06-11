@@ -1,0 +1,70 @@
+/* Navigation */
+#resume {
+    color: #D9E1E2;
+    text-decoration: underline;
+}
+
+/* RESUME */
+
+.resumepage {
+    width: 80%;
+    margin: 0px auto;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/* Experience */
+
+#exptitle{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.experience {
+    float: left;
+    width: 65%;
+    margin: 20px auto;
+    padding-right: 10px;
+}
+
+.position {
+    font-weight: 500;
+}
+
+.expdetail {
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+
+/*---------column----------*/
+.column {
+    float: right;
+    width: 25%;
+    margin-right: 40px;
+    padding-left: 10px;
+}
+
+.listtitle {
+    font-weight: 300;
+}
+
+.list {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+details {
+    font-family: 'Montserrat', sans-serif;
+    color: #505759;
+    font-size: 15pt;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
