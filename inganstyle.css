@@ -145,6 +145,26 @@ li {
 
 }
 
+#submit {
+    display: block;
+    margin: 0px auto;
+    color: #D9E1E2;
+    border-color: transparent;
+    font-size: 20pt;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 100%;
+    height: 50px;
+    background-color: #5CA3B3;
+    text-align: center;
+}
+
+#submit:hover{
+    background-color: #003E51;
+    color: #D9E1E2;
+
+}
+
  /* -------Footer Box-------- */
  .footer {
     background-color: #D9E1E2;
