@@ -213,6 +213,14 @@ a:hover {
 }
 
 .work5 {
+    background: url(work-image/rps.jpg);
+    height: 600px;
+    background-size: cover;
+    line-height: 2;
+    padding: 120px 50px 50px 50px;
+}
+
+.work6 {
     background: url(work-image/widget.jpg);
     height: 600px;
     background-size: cover;
