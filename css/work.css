@@ -8,6 +8,8 @@ a:hover {
 
 #container-2-sec {
     position: relative;
+    padding-top: 90px;
+  padding-bottom: 170px;
 }
 .projectsTitle {
     font-family: 'Neuton', serif;
