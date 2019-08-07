@@ -1,0 +1,128 @@
+a {
+    text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#container-2-sec {
+    position: relative;
+}
+.projectsTitle {
+    font-family: 'Neuton', serif;
+    font-weight: 600;
+    color: #e3bebf;
+    font-size: 180px;
+    position: absolute;
+    z-index: 3;
+}
+
+.workTile {
+    margin-top: 160px;
+}
+
+.hangman {
+    background:linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(../work-image/hangman.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    line-height: 2;
+    padding: 120px 50px 50px 50px;
+    position: relative;
+}
+
+.hangman:hover {
+    background: rgba(37, 113, 255, 0.13);
+    text-decoration: none;
+}
+
+
+.mario {
+    background:linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(../work-image/mario.jpg);
+    background-size: cover;
+    background-position: left;
+    height: 500px;
+    line-height: 2;
+    padding: 120px 50px 50px 50px;
+    position: relative;
+}
+
+.mario:hover {
+    background: rgba(255, 0, 0, 0.13);
+    text-decoration: none;
+}
+
+.pokemon {
+    height: 500px;
+    background:linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(../work-image/pokemon.jpg);
+    background-size: cover;
+    background-position: center;
+    line-height: 2;
+    padding: 120px 50px 50px 50px;
+    position: relative;
+}
+
+.pokemon:hover {
+    background: rgba(255, 238, 0, 0.13);
+    text-decoration: none;
+}
+
+.trivia {
+    height: 500px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),url(../work-image/trivia.jpg);
+    background-position: right;
+    background-size: cover;
+    line-height: 2;
+    padding: 120px 50px 50px 50px;
+    position: relative;
+}
+
+.trivia:hover {
+    background: rgba(0, 255, 0, 0.13);
+    text-decoration: none;
+}
+
+.rps {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),url(../work-image/rps.jpeg);
+    height: 500px;
+    background-size: cover;
+    line-height: 2;
+    padding: 120px 50px 50px 50px;
+    position: relative;
+}
+
+.rps:hover {
+    background: rgba(211, 211, 211, 0.5);
+    text-decoration: none;
+}
+
+.worktitle {
+    display: none;
+    font-family: 'Neuton', serif;
+    font-weight: 600;
+    text-align: center;
+    color: #327b93;
+    font-size: 50px;
+    padding: 30px;
+}
+
+.subTitle {
+    display: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #327b93;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.forMore {
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: darkgrey;
+    font-size: 15px;
+}
+

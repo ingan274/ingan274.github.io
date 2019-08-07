@@ -17,19 +17,233 @@
 
     <link rel="icon" href="./Logos/design-logo_tab.png" type="image/x-icon" />
     <!-- Font -->
-    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,600,700|Lato:400,700|Neuton:800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,600,700|Lato:400,700|Neuton:800&display=swap"
+        rel="stylesheet">
+    <!-- reset CSS -->
+    <link rel="stylesheet" href="./css/reset.css">
     <!-- Style -->
+    <link rel="stylesheet" href="./css/animate.css">
     <link rel="stylesheet" href="./css/inganstyle.css">
-    <!-- Anime JS -->
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com/" crossorigin>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <link rel="stylesheet" href="./css/work.css">
+    <link rel="stylesheet" href="./css/resume.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- link to jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <!-- JS -->
     <script src="./js/ingan.js"></script>
 
+
 </head>
 
-<body class="layout-portfolio">
+<body>
+    <!--Logo-->
+    <a href="#container-1" id="logoDiv">
+        <img src="./Logos/design-logo_website.png" id="logo" alt="Isabel Ngan">
+    </a>
+    <!-- <header class="nav-down container-fluid" id="header"> -->
+    <!--Navigation-->
+    <!-- <nav class='row'> -->
+    <!--Space-->
+    <!-- <div class='col-sm-0 col-md-7 col-lg-8'></div>
+            <div class='col-sm-12 col-md-5 col-lg-4'>
+                <div class='row'>
+                    <a href="#container-2" class='nav col-sm-3 col-lg-3 menu'>
+                        projects
+                    </a>
+                    <a href="#container-3" class='nav col-sm-3 col-lg-3 menu'>
+                        work
+                    </a>
+                    <a href="#container-4" class='nav col-sm-3 col-lg-3 menu'>
+                        about
+                    </a>
+                    <a href="#container-4" class='nav col-sm-3 col-lg-3 menu'>
+                        connect
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header> -->
 
+    <section class="hello container" id="container-1-sec">
+        <a id="container-1">
+            <div class="row">
+                <div class="col-sm-12 col-lg-6">
+                    <div class="meImage parallax" id="helloImage"></div>
+                </div>
+                <div class="col-sm-12 col-lg-6" id="helloDesc">
+                    <div class="text">
+                        <h1 class="helloName">Isabel Ngan</h1>
+                        <h1 class="helloSubhead">Artist turned Designer</h1>
+                    </div>
+                    <div class="scroll stage">
+                        <h1 class="helloScroll" id="scroll">scroll</h1>
+                        <h1 class="helloScroll bounce-1" id="scrollArrow">ꜜ</h1>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <section class="projects container" id="container-2-sec">
+        <a id="container-2">
+            <div class="row">
+                <h1 class="projectsTitle">Projects.</h1>
+            </div>
+        </a>
+        <div class="row workTile">
+            <a href="https://ingan274.github.io/RockPaperScissors-Multi" class='rps square col-6 work' id="rps">
+                <h2 class='worktitle worktitlerps'>Rock Paper Scissors MultiPlayer</h2>
+                <h3 class='subTitle subTitlerps'>Skills: HTML, CSS, JavaScript/jQuery, Firebase</h3>
+            </a>
+            <a href="https://ingan274.github.io/Pokemon" class='pokemon square col-6 work' id="pokemon">
+                <h2 class='worktitle worktitlepokemon'>Pokémon Battle</h2>
+                <h3 class='subTitle subTitlepokemon'>Skills: HTML, CSS, JavaScript/jQuery</h3>
+            </a>
+        </div>
+        <div class="row">
+            <a href="https://ingan274.github.io/Hangman" class='hangman long col-12 work' id="hangman">
+                <h2 class='worktitle worktitlehangman'>Chef's Table Hangman</h2>
+                <h3 class='subTitle subTitlehangman'>Skills: HTML, CSS, JavaScript (Vanilla)</h3>
+            </a>
+        </div>
+        <div class="row">
+            <a href="https://ingan274.github.io/AliWongTrivia" class='trivia square col-6 work' id="trivia">
+                <h2 class='worktitle worktitletrivia'>Ali Wong Trivia Game</h2>
+                <h3 class='subTitle subTitletrivia'>Skills: HTML, CSS, JavaScript/jQuery</h3>
+            </a>
+            <a href="https://ingan274.github.io/MarioCount" class='mario square col-6 work' id="mario">
+                <h2 class='worktitle worktitlemario'>Mario Count</h2>
+                <h3 class='subTitle subTitlemario'>Skills: HTML, CSS, JavaScript/jQuery</h3>
+            </a>
+        </div>
+
+    </section>
+
+    <section class="resume container" id="container-3-sec">
+        <a id="container-3">
+            <div class="row">
+                <h1 class="resumeTitle">Work.</h1>
+            </div>
+        </a>
+        <div class="row skillsDiv">
+            <div class="skills col-12">
+                <h1 class="resTitle">Skills</h1>
+                <h2 class="skillsList">Visual Design | Front-End Dev | Back-End Dev | Information Architecture |
+                    usability testing</h2>
+            </div>
+            <div class="tools col-12">
+                <h1 class="resTitle">Tools</h1>
+                <h2 class="skillsList">Paper | Pencil | HTML | CSS/Bootstrap | JavaScript/Jquery | Git | Node | Matcha
+                    Latte
+                </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="work BM col-6">
+                <h1 class="resTitle bmtitle">Badgley Mischka</h1>
+                <h1 class="position">Assistant Buyer | Merchandiser | Social Media Manager</h1>
+                <h1 class="description">Supported purchasing and merchandizing processes for luxury couture store by
+                    understanding clients buying preferences and patterns to maximize product sales. </h1>
+            </div>
+            <div class="work CK col-6">
+                <h1 class="resTitle cktitle">Cramer-Krasselt</h1>
+                <h1 class="position">Account Executive</h1>
+                <h1 class="description">Collaborated with internal creative, brand planning, media, analytics, account
+                    teams and B2B and B2C clients on strategic planning of project workflows to provide outstanding work
+                    on-time and on-budget for advertising agency serving clients including Cotton USA, T. Marzetti
+                    Company and Archer Daniels Midland.</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="education col-12">
+                <h1 class="resTitle">Education.</h1>
+                <h1 class="school NU">Northwestern University</h1>
+                <h1 class="school">Bachelors of Arts, Art Theory and Practice <br> Cum Laude, 3.8 <br>
+                    2017 Collegiate Effie Winner <br> Faricy Award for Creative Achievments</h1>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="connect container" id="container-4-sec">
+        <a id="container-4">
+            <div class="row">
+                <h1 class="connectTitle">Say hi!</h1>
+            </div>
+        </a>
+        <div class="row aboutSection">
+            <div class="col-sm-12 col-lg-6" id="aboutMe">
+                <div class="text">
+                    <h1 class="aboutTitle">Artist Turned Designer</h1>
+                    <h1 class="aboutDesc">
+                        I design for emotion. I believe cohesive and intuitive design systems are functional, usable,
+                        reliable, and most of all, breath feeling. Emotional design allows conversations with users that
+                        always end with a better iteration. So, why not design to fulfill a task and put a smile on our
+                        users faces?
+                        <br>
+                        <br>
+                        As individuals, we own our story; as a collective, shared stories can be powerful. I relish
+                        listening to stories of individuals and companies that stem from passion and drive. I aim to
+                        always be open to learning new things, while acknowledging what I don’t know.
+                        <br>
+                        <br>
+                        <br>
+                        ABOUT ME
+                        <br>
+                        <br>
+                        Since graduating from Northwestern University with a degree in Art Theory and Practice and a
+                        Human-Centered Design certificate from the Segal Design Institute of the McCormick School of
+                        Engineering, I am actively exploring the ways data and creativity intersect and drive one
+                        another within design.
+                        <br>
+                        <br>
+                        Growing up in Southern California and navigating university, I was always attracted to
+                        experiences and opportunities with one common thread: Understanding the Human experience. I
+                        believe that there is a real kinship between the humans and design. Much of my work within
+                        Fashion and Advertising has informed my understanding of consumers and what experiences drive
+                        behavior. I believe that great design provokes thought, expands imagination, and changes our
+                        experience of the world.
+                        <br>
+                        <br>
+                        I am currently in the process of applying for Human-Computer Interaction and Design related
+                        Masters programs to further my education and training as a Designer.</h1>
+                </div>
+                <div class="scroll scrollsayhi stage">
+                    <h1 class="helloScroll" id="scroll">say hi</h1>
+                    <h1 class="helloScroll bounce-1" id="scrollArrow">ꜜ</h1>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-6">
+                <div class="meImage parallax" id="byeImage"></div>
+            </div>
+        </div>
+        <a id="container-5">
+            <div class="row">
+                <h1 class="connectTitle formTitle">Connect.</h1>
+            </div>
+            <div class="row">
+                <div class='col-lg-3 col-sm-12'></div>
+                <form class='connectForm col-lg-6 col-sm-12' action=''>
+                    <input name='name' type='text' class='form-control' placeholder="Your Name">
+                    <br>
+                    <input name='email' type='text' class='form-control' placeholder="Email">
+                    <br>
+                    <textarea name='message' type='text' class='form-control' placeholder="Message" rows="5"
+                        required></textarea><br>
+                    <input name='submit' class='button' id='submit' value="SEND MESSAGE" type="button" required>
+                </form>
+                <div class='col-lg-3 col-sm-12'></div>
+            </div>
+        </a>
+
+    </section>
+    <script src="./js/ingan.js"></script>
 </body>
 
 </html>

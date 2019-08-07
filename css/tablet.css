@@ -1,0 +1,29 @@
+@media only screen 
+and (min-device-width : 790px) 
+and (max-device-width : 1024px)  { 
+    #container-1-sec {
+        padding-top: 80px;
+        padding-bottom: 70px;
+      }
+      #helloImage {
+        height: 680px;
+      }
+
+      #helloDesc {
+        height: 680px;
+      } 
+
+      .text {
+        height: 690px;
+        padding: 100px 50px;
+      }
+      
+      .scroll {
+        height: 20px;
+        margin-left: 0px;
+      }
+      
+      .parallax {
+        background-size: 100%;
+      }
+}

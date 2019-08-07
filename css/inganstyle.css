@@ -16,11 +16,130 @@ font-weight: 400, 700; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
   }
 
 a {
     text-decoration: none;
 }
 
+a:hover {
+  text-decoration: none;
+}
 /* -------- Main CSS -------- */
+/* Navigation */
+#header {
+  position: fixed;
+}
+.nav {
+  padding: 20px 20px 20px 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700; 
+  color: #327b9375;
+  z-index: 4;
+  font-size: 12px;
+}
 
+#logo {
+  display: block;
+  width: 40px;
+  object-fit: contain;
+  margin: 10px auto;
+}
+
+#logoDiv {
+  display: block;
+  z-index: 6;
+  width: 100%;
+  position: fixed;
+}
+
+/* Hello Container */
+#container-1-sec {
+  padding-top: 90px;
+  padding-bottom: 70px;
+}
+#helloImage {
+  background-image: url(../about-image/websiteprofile.jpg);
+  height: 780px;
+}
+
+/* Parallax image */
+.parallax {
+  position: relative;
+  text-indent: -9999px;
+  background-attachment: fixed;
+  background-position: top left;
+  background-size: 80%;
+}
+/* ----- */
+
+#helloDesc {
+  background: #327b931e;
+  background-size: cover;
+  height: 780px;
+} 
+
+.text {
+  height: 790px;
+  padding: 100px 50px;
+}
+
+.scroll {
+  height: 20px;
+  margin-left: 0px;
+}
+
+.helloName {
+  font-family: 'Neuton', serif;
+  font-weight: 600;
+  color: #327b93;
+  font-size: 80px;
+}
+
+.helloSubhead {
+  font-family: 'EB Garamond', serif;
+  font-weight: 600;
+  color: #e3bebf;
+  font-size: 30px;
+}
+
+.helloScroll {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400; 
+  color: 327b93;
+  font-size: 14px;
+  color: #327b93;
+}
+
+/* Bouncing scroll text */
+.stage {
+  height: 330px;
+  width: 100%;
+}
+.helloScroll {
+  align-self: flex-end;
+  animation-duration: 1.7s;
+  animation-iteration-count: infinite;
+  margin: 0 auto;
+}
+.bounce-1 {
+  animation-name: bounce-1;
+  animation-timing-function: linear;
+}
+@keyframes bounce-1 {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-15px); }
+  100% { transform: translateY(0); }
+}
+
+/* ----- */
+
+#scroll {
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+  text-align: left;
+}
+#scrollArrow {
+margin-left: 5px;
+}

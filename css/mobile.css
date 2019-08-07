@@ -1,0 +1,44 @@
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 790px)
+and (-webkit-device-pixel-ratio : 3) { 
+.header {
+  display: none;
+}
+
+#container-1-sec {
+padding-top: 80px;
+padding-bottom: 70px;
+}
+
+#helloImage {
+height: 230px;
+}
+
+#helloDesc {
+height: 230px;
+} 
+
+.text {
+height: 230px;
+padding: 50px 50px;
+}
+
+.scroll {
+height: 20px;
+margin-left: 0px;
+}
+
+.parallax {
+background-size: 100%;
+}
+
+
+.helloName {
+font-size: 50px;
+}
+
+.helloSubhead {
+font-size: 20px;
+}
+}
