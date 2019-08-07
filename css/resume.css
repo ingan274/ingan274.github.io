@@ -57,6 +57,7 @@
 #bwoke:hover {
     background: rgba(255, 0, 0, 0.589);
     text-transform: none;
+    text-emphasis: none;
 }
 
 #bwoklogo {
@@ -78,6 +79,19 @@
 
 .bwokeDesc:hover, .bwokeTitle:hover {
     text-transform: none;
+}
+
+.morewoke {
+    display: none;
+    font-family: 'Neuton', serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.morewoke:hover {
+    display: inline-block;
 }
 
 .work {

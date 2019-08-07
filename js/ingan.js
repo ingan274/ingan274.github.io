@@ -13,3 +13,9 @@ $("#container-2-sec").on("mouseover", ".work", function () {
     $(".worktitle" + game).hide();
     $(forMore).detach();
 });
+
+$("#container-3-sec").on("mouseover", "#bwoke", function() {
+    $(".morewoke").show();
+}).on("mouseout", function () {
+    $(".morewoke").hide();
+});
