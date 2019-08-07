@@ -29,15 +29,27 @@ a:hover {
 /* -------- Main CSS -------- */
 /* Navigation */
 #header {
-  position: fixed;
+  position: relative;
+  background:rgba(255, 255, 255, 0.7);
 }
 .nav {
-  padding: 20px 20px 20px 20px;
+  padding: 40px 20px 20px 20px;
   font-family: 'Lato', sans-serif;
   font-weight: 700; 
+  transform: rotate(-90deg);
   color: #327b9375;
-  z-index: 4;
-  font-size: 12px;
+  z-index: 10;
+  font-size: 14px;
+}
+
+.nav:hover {
+  text-decoration: none;
+  color: #327b93fa;
+}
+
+.navigationBar {
+  position: fixed;
+  padding: 100px 20px 40px 40px;
 }
 
 #logo {
@@ -45,19 +57,23 @@ a:hover {
   width: 40px;
   object-fit: contain;
   margin: 10px auto;
+  
+  z-index: 6;
 }
 
 #logoDiv {
   display: block;
   z-index: 6;
-  width: 100%;
-  position: fixed;
+  width: 98.23%;
+  margin: 10px auto;
+  position: fixed ;
 }
 
 /* Hello Container */
 #container-1-sec {
   padding-top: 90px;
   padding-bottom: 270px;
+  z-index: 4;
 }
 #helloImage {
   background-image: url(../about-image/websiteprofile.jpg);

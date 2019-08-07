@@ -9,7 +9,8 @@ a:hover {
 #container-2-sec {
     position: relative;
     padding-top: 90px;
-  padding-bottom: 170px;
+    padding-bottom: 170px;
+    z-index: 1;
 }
 .projectsTitle {
     font-family: 'Neuton', serif;
@@ -17,7 +18,7 @@ a:hover {
     color: #e3bebf;
     font-size: 180px;
     position: absolute;
-    z-index: 3;
+    z-index: 2;
 }
 
 .workTile {
@@ -32,6 +33,7 @@ a:hover {
     line-height: 2;
     padding: 120px 50px 50px 50px;
     position: relative;
+    z-index: 1;
 }
 
 .hangman:hover {
@@ -48,6 +50,7 @@ a:hover {
     line-height: 2;
     padding: 120px 50px 50px 50px;
     position: relative;
+    z-index: 1;
 }
 
 .mario:hover {
@@ -63,6 +66,7 @@ a:hover {
     line-height: 2;
     padding: 120px 50px 50px 50px;
     position: relative;
+    z-index: 1;
 }
 
 .pokemon:hover {
@@ -78,6 +82,7 @@ a:hover {
     line-height: 2;
     padding: 120px 50px 50px 50px;
     position: relative;
+    z-index: 1;
 }
 
 .trivia:hover {
@@ -92,6 +97,7 @@ a:hover {
     line-height: 2;
     padding: 120px 50px 50px 50px;
     position: relative;
+    z-index: 1;
 }
 
 .rps:hover {

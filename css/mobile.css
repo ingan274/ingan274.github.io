@@ -2,6 +2,11 @@
 and (min-device-width : 375px) 
 and (max-device-width : 790px)
 and (-webkit-device-pixel-ratio : 3) { 
+
+.navigationBar {
+  display: none;
+ }
+
 .header {
   display: none;
 }
@@ -16,11 +21,11 @@ height: 230px;
 }
 
 #helloDesc {
-height: 230px;
+height: 430px;
 } 
 
 .text {
-height: 230px;
+height: 430px;
 padding: 50px 50px;
 }
 
@@ -40,5 +45,32 @@ font-size: 50px;
 
 .helloSubhead {
 font-size: 20px;
+}
+
+.projectsTitle, .resumeTitle, .connectTitle  {
+  font-size: 100px;
+}
+
+.workTile, .skillsDiv, .aboutSection {
+  margin-top: 90px;
+}
+.skillsDiv, .aboutSection {
+  padding-top: 110px;
+}
+.description {
+  margin: 5px auto;
+  font-size: 20px;
+}
+
+.textAboutMobile {
+  height: 1180px;
+}
+#byeImage {
+  height: 280px;
+  background-size: 100%;
+}
+.connectForm {
+  margin-top: 850px;
+  margin-bottom: 100px;
 }
 }
