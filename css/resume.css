@@ -45,6 +45,40 @@
 .tools {
     background: rgb(175, 175, 175);
 }
+.bwokeTitle{
+    padding: 10px 10px;
+    text-transform: none;
+}
+
+#bwoke {
+    background: rgba(255, 0, 0, 0.336);
+}
+
+#bwoke:hover {
+    background: rgba(255, 0, 0, 0.589);
+    text-transform: none;
+}
+
+#bwoklogo {
+    display: block;
+    margin: 0px auto;
+    width: 50px;
+    padding: 15px 5px;
+}
+
+.bwokeDesc {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 21px;
+    padding: 25px 15px;
+    text-transform: none;
+    margin: 0px auto;
+}
+
+.bwokeDesc:hover, .bwokeTitle:hover {
+    text-transform: none;
+}
 
 .work {
     height: 450px;
