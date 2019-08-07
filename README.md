@@ -1,14 +1,12 @@
 # Isabel Ngan Portfolio
-<br>
 View Here: https://ingan274.github.io/
-<br>
-<br>
+
 ## Features
-* Learn About Me
-* View my projects
-* View a quick overview of my past work experience
-* Connect with me!
-<br>
-<br>
-## About this game
-the June 2019 cohort of UCLA Boot Camp. Built using HTML, CSS, JavaScript/JQuery.
+* Fun parallax scrolling as you get to know me
+* Hover elements as you view my projects
+* Connect with me too!
+
+
+## Programming notes
+* Built using HTML/Bootstrap, CSS and JavaScript/jQuery
+* 2019 UCLA Extension Full Stack Web Development
