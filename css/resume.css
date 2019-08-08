@@ -50,39 +50,8 @@ a {
     text-decoration: none;
 }
 
-#bwoklogo {
-    display: block;
-    margin: 0px auto;
-    width: 50px;
-    padding: 15px 5px;
-}
 
-.bwokeDesc {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    color: white;
-    font-size: 21px;
-    padding: 25px 15px;
-    text-decoration: none;
-    margin: 0px auto;
-}
 
-.bwokeDesc:hover, .bwokeTitle:hover {
-    text-decoration: none;
-}
-
-.morewoke {
-    display: none;
-    font-family: 'Neuton', serif;
-    text-transform: uppercase;
-    text-align: center;
-    color: white;
-    font-size: 15px;
-
-    position: absolute;
-    top: 25px;
-    right: 25px;
-}
 
 .work {
     height: 450px;
