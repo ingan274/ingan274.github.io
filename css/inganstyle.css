@@ -72,12 +72,12 @@ a:hover {
 /* Hello Container */
 #container-1-sec {
   padding-top: 90px;
-  padding-bottom: 270px;
+  padding-bottom: 170px;
   z-index: 4;
 }
 #helloImage {
   background-image: url(../about-image/websiteprofile.jpg);
-  height: 780px;
+  height: 750px;
 }
 
 /* Parallax image */
@@ -93,11 +93,11 @@ a:hover {
 #helloDesc {
   background: #327b931e;
   background-size: cover;
-  height: 780px;
+  height: 750px;
 } 
 
 .text {
-  height: 790px;
+  height: 760px;
   padding: 100px 50px;
 }
 
@@ -122,9 +122,9 @@ a:hover {
 
 .helloScroll {
   font-family: 'Lato', sans-serif;
-  font-weight: 400; 
+  font-weight: 700; 
   color: 327b93;
-  font-size: 14px;
+  font-size: 18px;
   color: #327b93;
 }
 

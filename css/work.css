@@ -19,10 +19,11 @@ a:hover {
     font-size: 180px;
     position: absolute;
     z-index: 2;
+    padding-top: 120px;
 }
 
 .workTile {
-    margin-top: 160px;
+    padding-top: 280px;
 }
 
 .hangman {
