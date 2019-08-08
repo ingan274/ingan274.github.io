@@ -105,6 +105,21 @@ a:hover {
     text-decoration: none;
 }
 
+.jif {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),url(../work-image/jif.jpg);
+    height: 500px;
+    background-size: cover;
+    line-height: 2;
+    padding: 120px 50px 50px 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.jif:hover {
+    background: rgba(214, 124, 20, 0.397);
+    text-decoration: none;
+}
+
 .worktitle {
     display: none;
     font-family: 'Neuton', serif;
