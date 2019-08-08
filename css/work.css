@@ -13,7 +13,7 @@ a:hover {
     z-index: 1;
 }
 
-.projectsTitle, .gamesTitle {
+.projectsTitle, .gamesTitle, .appTitle {
     font-family: 'Neuton', serif;
     font-weight: 600;
     color: #e3bebf;
@@ -23,7 +23,7 @@ a:hover {
     padding-top: 120px;
 }
 
-.gamesTitle {
+.gamesTitle, .appTitle {
     transform: rotate(+90deg);
     padding-top: 0px;
     position: absolute;
@@ -31,12 +31,17 @@ a:hover {
     top: 140px;
 }
 
+.appTitle {
+    right: -315px;
+    top: 80px;
+}
+
 .workTile {
     padding-top: 280px;
 }
 
-.games {
-    padding: 0px 0px;
+.games, .apps {
+    position: relative;
 }
 
 /* HANGMAN */
