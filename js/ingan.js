@@ -14,7 +14,7 @@ $("#container-2-sec").on("mouseover", ".work", function () {
     $(forMore).detach();
 });
 
-$("#container-3-sec").on("mouseover", "#bwoke", function() {
+$("#container-3-sec").on("mouseover", "#bWokeDIV", function() {
     $(".morewoke").show();
 }).on("mouseout", function () {
     $(".morewoke").hide();

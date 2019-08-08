@@ -50,13 +50,17 @@
     text-transform: none;
 }
 
-#bwoke {
+#bWokeDIV {
     background: rgba(255, 0, 0, 0.336);
     position: relative;
 }
 
-#bwoke:hover {
+#bWokeDIV:hover {
     background: rgba(255, 0, 0, 0.589);
+    text-decoration: none;
+}
+
+a {
     text-decoration: none;
 }
 
@@ -73,8 +77,12 @@
     color: white;
     font-size: 21px;
     padding: 25px 15px;
-    text-transform: none;
+    text-decoration: none;
     margin: 0px auto;
+}
+
+.bwokeDesc:hover, .bwokeTitle:hover {
+    text-decoration: none;
 }
 
 .morewoke {
