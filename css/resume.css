@@ -52,12 +52,12 @@
 
 #bwoke {
     background: rgba(255, 0, 0, 0.336);
+    position: relative;
 }
 
 #bwoke:hover {
     background: rgba(255, 0, 0, 0.589);
-    text-transform: none;
-    text-emphasis: none;
+    text-decoration: none;
 }
 
 #bwoklogo {
@@ -77,10 +77,6 @@
     margin: 0px auto;
 }
 
-.bwokeDesc:hover, .bwokeTitle:hover {
-    text-transform: none;
-}
-
 .morewoke {
     display: none;
     font-family: 'Neuton', serif;
@@ -88,10 +84,10 @@
     text-align: center;
     color: white;
     font-size: 15px;
-}
 
-.morewoke:hover {
-    display: inline-block;
+    position: absolute;
+    top: 25px;
+    right: 25px;
 }
 
 .work {
