@@ -12,7 +12,8 @@ a:hover {
     padding-bottom: 170px;
     z-index: 1;
 }
-.projectsTitle {
+
+.projectsTitle, .gamesTitle {
     font-family: 'Neuton', serif;
     font-weight: 600;
     color: #e3bebf;
@@ -22,10 +23,23 @@ a:hover {
     padding-top: 120px;
 }
 
+.gamesTitle {
+    transform: rotate(+90deg);
+    padding-top: 0px;
+    position: absolute;
+    right: -370px;
+    top: 140px;
+}
+
 .workTile {
     padding-top: 280px;
 }
 
+.games {
+    padding: 0px 0px;
+}
+
+/* HANGMAN */
 .hangman {
     background:linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(../work-image/hangman.jpg);
     background-size: cover;
@@ -42,7 +56,7 @@ a:hover {
     text-decoration: none;
 }
 
-
+/* MARIO */
 .mario {
     background:linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(../work-image/mario.jpg);
     background-size: cover;
@@ -59,6 +73,7 @@ a:hover {
     text-decoration: none;
 }
 
+/* POKEMON */
 .pokemon {
     height: 500px;
     background:linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(../work-image/pokemon.jpg);
@@ -75,6 +90,7 @@ a:hover {
     text-decoration: none;
 }
 
+/* TRIVIA */
 .trivia {
     height: 500px;
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),url(../work-image/trivia.jpg);
@@ -91,6 +107,7 @@ a:hover {
     text-decoration: none;
 }
 
+/* RPS */
 .rps {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),url(../work-image/rps.jpeg);
     height: 500px;
@@ -106,6 +123,7 @@ a:hover {
     text-decoration: none;
 }
 
+/* JIF */
 .jif {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),url(../work-image/jif.jpg);
     height: 500px;
@@ -121,6 +139,53 @@ a:hover {
     text-decoration: none;
 }
 
+/* BWOKE */
+#bWokeDIV {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),url(../work-image/bwoke.jpg);
+    height: 500px;
+    background-size: cover;
+    line-height: 2;
+    padding: 20px 30px 30px 50px;
+    position: relative;
+    z-index: 1;
+}
+
+#bWokeDIV:hover {
+    background: rgba(2, 87, 136, 0.336);
+    text-decoration: none;
+}
+
+
+.bwokeDesc {
+    display: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 21px;
+    padding: 25px 15px;
+    text-decoration: none;
+    margin: 0px auto;
+}
+
+.morewoke {
+    display: none;
+    font-family: 'Neuton', serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+
+    position: absolute;
+}
+
+#bwokelogo {
+    display: block;
+    margin: 0px auto;
+    width: 50px;
+    padding: 15px 5px;
+}
+
+/* inside each game */
 .worktitle {
     display: none;
     font-family: 'Neuton', serif;
