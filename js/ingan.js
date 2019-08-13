@@ -6,11 +6,13 @@ $("#container-2-sec").on("mouseover", ".game", function () {
     var game = $(this).attr('id');
     $(".subTitle" + game).show();
     $(".worktitle" + game).show();
+    $(".viewLink" + game).show();
     $("#" + game).prepend(forMore);
 }).on("mouseout", ".game", function () {
     var game = $(this).attr('id');
     $(".subTitle" + game).hide();
     $(".worktitle" + game).hide();
+    $(".viewLink" + game).hide();
     $(forMore).detach();
 });
 

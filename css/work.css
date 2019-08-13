@@ -222,3 +222,25 @@ a:hover {
     font-size: 15px;
 }
 
+
+.viewlink {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #327b93bb;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.viewlink:hover {
+    font-weight: 700;
+    color: #327b93;
+    text-decoration: none;
+}
+
+.viewLink {
+    display: none;
+}
