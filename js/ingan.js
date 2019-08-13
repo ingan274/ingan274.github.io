@@ -23,6 +23,7 @@ $("#container-2-sec").on("mouseover", "#bWokeDIV", function() {
     $(".subTitlebWoke").show();
     $(".bwokeDesc").show();
     $("#bwokelogo").show();
+    $(".viewLinkbWoke").show();
 }).on("mouseout", function () {
     $(".morewoke").hide();
     $(".morewoke").hide();
@@ -30,4 +31,5 @@ $("#container-2-sec").on("mouseover", "#bWokeDIV", function() {
     $(".subTitlebWoke").hide();
     $(".bwokeDesc").hide();
     $("#bwokelogo").hide();
+    $(".viewLinkbWoke").hide();
 });
