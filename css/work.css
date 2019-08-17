@@ -46,7 +46,7 @@ a:hover {
 
 /* HANGMAN */
 .hangman {
-    background:linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(../work-image/hangman.jpg);
+    background:linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../work-image/hangman.jpg);
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -63,7 +63,7 @@ a:hover {
 
 /* MARIO */
 .mario {
-    background:linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(../work-image/mario.jpg);
+    background:linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../work-image/mario.jpg);
     background-size: cover;
     background-position: left;
     height: 500px;
@@ -81,7 +81,7 @@ a:hover {
 /* POKEMON */
 .pokemon {
     height: 500px;
-    background:linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(../work-image/pokemon.jpg);
+    background:linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../work-image/pokemon.jpg);
     background-size: cover;
     background-position: center;
     line-height: 2;
@@ -98,7 +98,7 @@ a:hover {
 /* TRIVIA */
 .trivia {
     height: 500px;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),url(../work-image/trivia.jpg);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),url(../work-image/trivia.jpg);
     background-position: right;
     background-size: cover;
     line-height: 2;
@@ -114,7 +114,7 @@ a:hover {
 
 /* RPS */
 .rps {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),url(../work-image/rps.jpeg);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),url(../work-image/rps.jpeg);
     height: 500px;
     background-size: cover;
     line-height: 2;
@@ -130,7 +130,7 @@ a:hover {
 
 /* JIF */
 .jif {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),url(../work-image/jif.jpg);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),url(../work-image/jif.jpg);
     height: 500px;
     background-size: cover;
     line-height: 2;
@@ -146,7 +146,7 @@ a:hover {
 
 /* BWOKE */
 #bWokeDIV {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),url(../work-image/bwoke.jpg);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),url(../work-image/bwoke.jpg);
     height: 600px;
     background-size: cover;
     line-height: 2;
