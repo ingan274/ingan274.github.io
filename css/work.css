@@ -133,6 +133,7 @@ a:hover {
 .rps {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),url(../work-image/rps.jpeg);
     height: 500px;
+    background-position: center; 
     background-size: cover;
     line-height: 2;
     padding: 120px 50px 50px 50px;
@@ -149,6 +150,7 @@ a:hover {
 .jif {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),url(../work-image/jif.jpg);
     height: 500px;
+    background-position: center; 
     background-size: cover;
     line-height: 2;
     padding: 120px 50px 50px 50px;
@@ -165,6 +167,7 @@ a:hover {
 #bWokeDIV {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),url(../work-image/bwoke.jpg);
     height: 600px;
+    background-position: center; 
     background-size: cover;
     line-height: 2;
     padding: 20px 30px 30px 50px;
@@ -217,6 +220,7 @@ a:hover {
     line-height: 2;
     padding: 120px 50px 50px 50px;
     position: relative;
+    background-position: center; 
     z-index: 1;
 }
 
@@ -224,6 +228,25 @@ a:hover {
     background: rgba(176, 169, 196, 0.384);
     text-decoration: none;
 }
+
+/* Bamazon Bot */
+.bamazon {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),url(../work-image/bamazon.jpg);
+    height: 500px;
+    background-size: cover;
+    line-height: 2;
+    padding: 120px 50px 50px 50px;
+    position: relative;
+    background-position: center; 
+    z-index: 1;
+}
+
+.bamazon:hover {
+    background: rgba(228, 159, 11, 0.384);
+    text-decoration: none;
+}
+
+
 /* inside each game */
 .worktitle {
     display: none;

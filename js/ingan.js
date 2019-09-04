@@ -1,6 +1,6 @@
 var forMore = $("<div>")
 forMore.addClass("forMore bounce-1 helloScroll");
-forMore.text("click link below to play");
+forMore.text("click links below to check it out");
 
 $("#container-2-sec").on("mouseover", ".game", function () {
     var game = $(this).attr('id');
