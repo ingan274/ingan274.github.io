@@ -246,6 +246,22 @@ a:hover {
     text-decoration: none;
 }
 
+/* Friend Finder */
+.friendfinder {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),url(../work-image/friendfinder.jpg);
+    height: 500px;
+    background-size: cover;
+    line-height: 2;
+    padding: 120px 50px 50px 50px;
+    position: relative;
+    background-position: center; 
+    z-index: 1;
+}
+
+.friendfinder:hover {
+    background: rgba(179, 119, 175, 0.384);
+    text-decoration: none;
+}
 
 /* inside each game */
 .worktitle {
