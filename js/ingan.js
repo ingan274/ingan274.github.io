@@ -11,7 +11,7 @@
 
 // WORK SECTION
 var forMore = $("<div>")
-forMore.addClass("forMore bounce-1 helloScroll");
+forMore.addClass("forMore");
 forMore.text("click links below to check it out");
 
 $("#Work").on("mouseover", ".game", function () {
