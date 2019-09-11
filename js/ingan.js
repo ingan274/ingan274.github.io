@@ -14,7 +14,7 @@ var forMore = $("<div>")
 forMore.addClass("forMore bounce-1 helloScroll");
 forMore.text("click links below to check it out");
 
-$("#container-2-sec").on("mouseover", ".game", function () {
+$("#Work").on("mouseover", ".game", function () {
     var game = $(this).attr('id');
     $(".subTitle" + game).show();
     $(".worktitle" + game).show();
@@ -29,7 +29,7 @@ $("#container-2-sec").on("mouseover", ".game", function () {
 });
 
 $("#bwokelogo").hide();
-$("#container-2-sec").on("mouseover", "#bWokeDIV", function () {
+$("#Work").on("mouseover", "#bWokeDIV", function () {
     $(".morewoke").show();
     $(".worktitleBWoke").show();
     $(".subTitlebWoke").show();
