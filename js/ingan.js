@@ -1,3 +1,16 @@
+$(function () {
+    $(document).ready(function () {
+        // APPENDING HTML
+        $(".load-html").each(function () {
+            var container = "#" + $(this).attr('data-container');
+            var src = $(this).attr('data-source');
+            $(container).load(src);
+        })
+    })
+
+});
+
+// WORK SECTION
 var forMore = $("<div>")
 forMore.addClass("forMore bounce-1 helloScroll");
 forMore.text("click links below to check it out");
@@ -17,7 +30,7 @@ $("#container-2-sec").on("mouseover", ".game", function () {
 });
 
 $("#bwokelogo").hide();
-$("#container-2-sec").on("mouseover", "#bWokeDIV", function() {
+$("#container-2-sec").on("mouseover", "#bWokeDIV", function () {
     $(".morewoke").show();
     $(".worktitleBWoke").show();
     $(".subTitlebWoke").show();
