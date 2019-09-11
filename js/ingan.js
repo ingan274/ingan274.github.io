@@ -1,14 +1,13 @@
-$(function () {
-    $(document).ready(function () {
-        // APPENDING HTML
-        $(".load-html").each(function () {
-            var container = "#" + $(this).attr('data-container');
-            var src = $(this).attr('data-source');
-            $(container).load(src);
-        })
-    })
-
-});
+// $(function () {
+//     $(document).ready(function () {
+//         // APPENDING HTML
+//         $(".load-html").each(function () {
+//             var container = "#" + $(this).attr('data-container');
+//             var src = $(this).attr('data-source');
+//             $(container).load(src);
+//         })
+//     })
+// });
 
 // WORK SECTION
 var forMore = $("<div>")
