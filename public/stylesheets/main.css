@@ -11,6 +11,13 @@
     --black: #1f282f;
     --black-half: #1f282f85;
 }
+.navName{
+    font-family: var(--title-font);
+    color: var(--blue);
+    font-weight: 600;
+    font-size: 30px;
+    margin-right: 30px;
+}
 
 #logo-nav {
     width: 60px;
