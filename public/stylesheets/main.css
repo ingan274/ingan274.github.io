@@ -1,0 +1,48 @@
+:root {
+    --title-font: 'Montserrat', sans-serif;
+    /* font-weight: 400,600,900 */
+    --text-font: 'Merriweather', serif;
+    /* font-weight: 400,700 */
+    --pink: #e3bebf;
+    --pink-half: #e3bebf86;
+    --pink-little: #e3bebf2d;
+    --blue: #2d7c95;
+    --blue-half: #2d7d9580;
+    --black: #1f282f;
+    --black-half: #1f282f85;
+}
+
+#logo-nav {
+    width: 60px;
+}
+
+.nav-link {
+    font-family: var(--title-font);
+    color: var(--black-half);
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: var(--pink);
+}
+
+.navbar {
+    background: var(--pink-little);
+}
+
+.social-row {
+    text-align: center;
+}
+
+.socialicon {
+    margin: 10px 5px;
+    width: 40px;
+    padding: 5px 5px;
+    
+}
+
+.socialicon:hover {
+    background: white;
+    padding: 5px 5px;
+    border-radius: 20px;
+}

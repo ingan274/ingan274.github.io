@@ -1,0 +1,31 @@
+<div class="indwork row">
+    <div class="workImage col-6">
+        <img src={{dataValues.imgurl}} class="imgImg">
+    </div>
+    <div class="workDesc col-6">
+        <div class="row">
+            <h1 class="title work">{{dataValues.worktitle}}</h1>
+        </div>
+        <div class="row">
+            <span class="skill work">{{dataValues.skill1}}</span>
+            <span class="skill work">{{dataValues.skill2}}</span>
+            <span class="skill work">{{dataValues.skill3}}</span>
+            <span class="skill work">{{dataValues.skill4}}</span>
+            <span class="skill work">{{dataValues.skill5}}</span>
+        </div>
+        <div class="row">
+            <h1 class="description">{{dataValues.description}}</h1>
+        </div>
+        {{#if dataValues.liveurl}}
+        <div class="row">
+            <a href="{{dataValues.codeurl}}"><button class="link work">View Code</button></a>
+            <a href="{{dataValues.liveurl}}"><button class="link work">Code in Action</button></a>
+        </div>
+        {{else}}
+        <div class="row">
+            <a href="{{dataValues.codeurl}}"><button class="link work">View Code</button></a>
+        </div>
+        {{/if}}
+    </div>
+
+</div>

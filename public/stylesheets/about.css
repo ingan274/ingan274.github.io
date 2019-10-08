@@ -1,0 +1,46 @@
+:root {
+    --title-font: 'Montserrat', sans-serif;
+    /* font-weight: 400,600,900 */
+    --text-font: 'Merriweather', serif;
+    /* font-weight: 400,700 */
+    --pink: #e3bebf;
+    --pink-half: #e3bebf86;
+    --pink-little: #e3bebf2d;
+    --blue: #2d7c95;
+    --blue-half: #2d7d9580;
+    --black: #1f282f;
+    --
+}
+
+.profile, .aboutme {
+    width: 100%;
+    margin: 20px;
+    
+}
+
+.abtMeTitle {
+    margin: 50px 50px 0px;
+    font-family: var(--title-font);
+    font-weight: 600; 
+    color: var(--black);
+}
+
+.connectTitle {
+    margin: 20px 50px 0px;
+    font-family: var(--title-font);
+    font-weight: 600; 
+    color: var(--blue);
+}
+
+.aboutme {
+    font-family: var(--text-font);
+    font-weight: 400; 
+    color: var(--black);
+}
+
+.connect {
+    margin: 20px 20px 0px;
+    font-family: var(--text-font);
+    font-weight: 400; 
+    color: var(--pink);
+}
