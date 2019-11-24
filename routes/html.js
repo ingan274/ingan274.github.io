@@ -5,9 +5,10 @@ const Op = Sequelize.Op;
 module.exports = function (app) {
   /* GET Work. */
   app.get('/', function (req, res, next) {
-    db.work.findAll({order: 
-      ['name', 'ASC'],
-  }).then(function (work) {
+    db.work.findAll({
+      order:
+        ['worktitle', 'ASC'],
+    }).then(function (work) {
       // console.log(work)
       res.render('work', { allwork: work })
     })
