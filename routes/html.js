@@ -27,7 +27,10 @@ module.exports = function (app) {
           { skill4: searchQuery },
           { skill5: searchQuery }
         ]
-      }
+      },
+      order: [
+        ['worktitle', 'ASC']
+      ]
     }).then(function (results) {
       res.render('work', { allwork: results })
     });
